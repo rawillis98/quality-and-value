@@ -93,4 +93,6 @@ try:
 
     log("Done :)")
 except Exception as e:
+    log("Exception!")
     log(e)
+    sys.exit(0)
